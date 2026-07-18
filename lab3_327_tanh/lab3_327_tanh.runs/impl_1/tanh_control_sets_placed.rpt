@@ -1,0 +1,96 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
+| Date         : Mon Jul 13 04:54:47 2026
+| Host         : AyuyuZ-Rog running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file tanh_control_sets_placed.rpt
+| Design       : tanh
+| Device       : xck26
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |    18 |
+|    Minimum number of control sets                        |    18 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |    10 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |    18 |
+| >= 0 to < 4        |     0 |
+| >= 4 to < 6        |    13 |
+| >= 6 to < 8        |     2 |
+| >= 8 to < 10       |     0 |
+| >= 10 to < 12      |     0 |
+| >= 12 to < 14      |     0 |
+| >= 14 to < 16      |     0 |
+| >= 16              |     3 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |            3706 |          521 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |             128 |           36 |
+| Yes          | No                    | No                     |               0 |            0 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |              12 |            2 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++----------------+---------------+--------------------------------------------+------------------+----------------+--------------+
+|  Clock Signal  | Enable Signal |              Set/Reset Signal              | Slice Load Count | Bel Load Count | Bels / Slice |
++----------------+---------------+--------------------------------------------+------------------+----------------+--------------+
+|  clk_IBUF_BUFG |               | mac5/p_12_out[24]                          |                2 |              4 |         2.00 |
+|  clk_IBUF_BUFG |               | mac_cube/p_12_out[24]                      |                2 |              4 |         2.00 |
+|  clk_IBUF_BUFG |               | mac_square/p_12_out[24]                    |                2 |              4 |         2.00 |
+|  clk_IBUF_BUFG |               | piped_x3_xin/g_chain.pipe_reg_n_0_[0][0]   |                3 |              4 |         1.33 |
+|  clk_IBUF_BUFG |               | piped_x_final/g_chain.pipe_reg_n_0_[10][0] |                2 |              4 |         2.00 |
+|  clk_IBUF_BUFG |               | mac1/p_12_out[24]                          |                1 |              4 |         4.00 |
+|  clk_IBUF_BUFG |               | mac3/a_r_reg[13]_0[0]                      |                2 |              4 |         2.00 |
+|  clk_IBUF_BUFG |               | mac3/p_12_out[24]                          |                2 |              4 |         2.00 |
+|  clk_IBUF_BUFG |               | mac4/a_r[0]                                |                2 |              4 |         2.00 |
+|  clk_IBUF_BUFG |               | mac4/p_12_out[24]                          |                1 |              4 |         4.00 |
+|  clk_IBUF_BUFG |               | mac2/a_r_reg[13]_0[0]                      |                1 |              4 |         4.00 |
+|  clk_IBUF_BUFG |               | mac2/p_12_out[24]                          |                2 |              4 |         2.00 |
+|  clk_IBUF_BUFG |               | mac1/p_6_out[24]                           |                1 |              5 |         5.00 |
+|  clk_IBUF_BUFG | p_0_in        | rst_IBUF_inst/O                            |                1 |              6 |         6.00 |
+|  clk_IBUF_BUFG | p_0_in0_out   | rst_IBUF_inst/O                            |                1 |              6 |         6.00 |
+|  clk_IBUF_BUFG | p_0_in        |                                            |                2 |             16 |         8.00 |
+|  clk_IBUF_BUFG |               | rst_IBUF_inst/O                            |               13 |             75 |         5.77 |
+|  clk_IBUF_BUFG |               |                                            |              521 |           3881 |         7.45 |
++----------------+---------------+--------------------------------------------+------------------+----------------+--------------+
+
+
