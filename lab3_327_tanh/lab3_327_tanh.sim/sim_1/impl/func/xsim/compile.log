@@ -1,0 +1,16 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ASUS/Documents/327_labs/lab2/lab3/lab3_327_tanh/lab3_327_tanh.sim/sim_1/impl/func/xsim/tanh_tb_func_impl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module csa_mac
+INFO: [VRFC 10-311] analyzing module csa_mac_0
+INFO: [VRFC 10-311] analyzing module csa_mac_1
+INFO: [VRFC 10-311] analyzing module csa_mac_2
+INFO: [VRFC 10-311] analyzing module csa_mac_3
+INFO: [VRFC 10-311] analyzing module csa_mac_4
+INFO: [VRFC 10-311] analyzing module csa_mac_5
+INFO: [VRFC 10-311] analyzing module tanh
+INFO: [VRFC 10-311] analyzing module wire_pipe
+INFO: [VRFC 10-311] analyzing module wire_pipe_6
+INFO: [VRFC 10-311] analyzing module wire_pipe_7
+INFO: [VRFC 10-311] analyzing module wire_pipe_8
+INFO: [VRFC 10-311] analyzing module wire_pipe__parameterized0
+INFO: [VRFC 10-311] analyzing module wire_pipe__parameterized1
+INFO: [VRFC 10-311] analyzing module glbl

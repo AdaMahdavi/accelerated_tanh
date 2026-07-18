@@ -1,0 +1,52 @@
++====================+===================+===============================+
+| Launch Setup Clock | Launch Hold Clock | Pin                           |
++====================+===================+===============================+
+| clk                | clk               | fifo_reg_0_63_7_13/RAMD/WADR0 |
+| clk                | clk               | fifo_reg_0_63_7_13/RAME/WADR0 |
+| clk                | clk               | fifo_reg_0_63_7_13/RAMB/WADR0 |
+| clk                | clk               | fifo_reg_0_63_7_13/RAMG/WADR0 |
+| clk                | clk               | fifo_reg_0_63_7_13/RAMC/WADR0 |
+| clk                | clk               | fifo_reg_0_63_7_13/RAMH/WADR0 |
+| clk                | clk               | fifo_reg_0_63_7_13/RAMA/WADR0 |
+| clk                | clk               | fifo_reg_0_63_7_13/RAMF/WADR0 |
+| clk                | clk               | fifo_reg_0_63_0_6/RAMC/WADR0  |
+| clk                | clk               | fifo_reg_0_63_0_6/RAMH/WADR0  |
+| clk                | clk               | fifo_reg_0_63_0_6/RAMA/WADR0  |
+| clk                | clk               | fifo_reg_0_63_0_6/RAME/WADR0  |
+| clk                | clk               | fifo_reg_0_63_0_6/RAMF/WADR0  |
+| clk                | clk               | fifo_reg_0_63_0_6/RAMB/WADR0  |
+| clk                | clk               | fifo_reg_0_63_0_6/RAMD/WADR0  |
+| clk                | clk               | fifo_reg_0_63_0_6/RAMG/WADR0  |
+| clk                | clk               | fifo_reg_0_63_7_13/RAMH/WADR1 |
+| clk                | clk               | fifo_reg_0_63_7_13/RAMD/WADR1 |
+| clk                | clk               | fifo_reg_0_63_7_13/RAME/WADR1 |
+| clk                | clk               | fifo_reg_0_63_7_13/RAMC/WADR1 |
+| clk                | clk               | fifo_reg_0_63_7_13/RAMA/WADR1 |
+| clk                | clk               | fifo_reg_0_63_7_13/RAMB/WADR1 |
+| clk                | clk               | fifo_reg_0_63_7_13/RAMG/WADR1 |
+| clk                | clk               | fifo_reg_0_63_7_13/RAMF/WADR1 |
+| clk                | clk               | fifo_reg_0_63_0_6/RAMF/WADR1  |
+| clk                | clk               | fifo_reg_0_63_0_6/RAMC/WADR1  |
+| clk                | clk               | fifo_reg_0_63_0_6/RAMH/WADR1  |
+| clk                | clk               | fifo_reg_0_63_0_6/RAMD/WADR1  |
+| clk                | clk               | fifo_reg_0_63_0_6/RAME/WADR1  |
+| clk                | clk               | fifo_reg_0_63_0_6/RAMG/WADR1  |
+| clk                | clk               | fifo_reg_0_63_0_6/RAMA/WADR1  |
+| clk                | clk               | fifo_reg_0_63_0_6/RAMB/WADR1  |
+| clk                | clk               | fifo_reg_0_63_7_13/RAME/WADR2 |
+| clk                | clk               | fifo_reg_0_63_7_13/RAMF/WADR2 |
+| clk                | clk               | fifo_reg_0_63_7_13/RAMA/WADR2 |
+| clk                | clk               | fifo_reg_0_63_7_13/RAMH/WADR2 |
+| clk                | clk               | fifo_reg_0_63_7_13/RAMC/WADR2 |
+| clk                | clk               | fifo_reg_0_63_7_13/RAMB/WADR2 |
+| clk                | clk               | fifo_reg_0_63_7_13/RAMD/WADR2 |
+| clk                | clk               | fifo_reg_0_63_7_13/RAMG/WADR2 |
+| clk                | clk               | fifo_reg_0_63_0_6/RAMF/WADR2  |
+| clk                | clk               | fifo_reg_0_63_0_6/RAMA/WADR2  |
+| clk                | clk               | fifo_reg_0_63_0_6/RAMB/WADR2  |
+| clk                | clk               | fifo_reg_0_63_0_6/RAMG/WADR2  |
+| clk                | clk               | fifo_reg_0_63_0_6/RAMD/WADR2  |
+| clk                | clk               | fifo_reg_0_63_0_6/RAMC/WADR2  |
+| clk                | clk               | fifo_reg_0_63_0_6/RAMH/WADR2  |
+| clk                | clk               | fifo_reg_0_63_0_6/RAME/WADR2  |
++--------------------+-------------------+-------------------------------+

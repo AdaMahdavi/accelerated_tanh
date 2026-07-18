@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Mon Jul 13 04:52:45 2026
+# Process ID         : 27464
+# Current directory  : C:/Users/ASUS/Documents/327_labs/lab2/lab3/lab3_327_tanh/lab3_327_tanh.runs/impl_1
+# Command line       : vivado.exe -log tanh.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source tanh.tcl -notrace
+# Log file           : C:/Users/ASUS/Documents/327_labs/lab2/lab3/lab3_327_tanh/lab3_327_tanh.runs/impl_1/tanh.vdi
+# Journal file       : C:/Users/ASUS/Documents/327_labs/lab2/lab3/lab3_327_tanh/lab3_327_tanh.runs/impl_1\vivado.jou
+# Running On         : AyuyuZ-Rog
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26200
+# Processor Detail   : 13th Gen Intel(R) Core(TM) i9-13980HX
+# CPU Frequency      : 2419 MHz
+# CPU Physical cores : 24
+# CPU Logical cores  : 32
+# Host memory        : 16777 MB
+# Swap memory        : 25777 MB
+# Total Virtual      : 42554 MB
+# Available Virtual  : 6357 MB
+#-----------------------------------------------------------
+source tanh.tcl -notrace
